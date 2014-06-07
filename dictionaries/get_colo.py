@@ -1,6 +1,7 @@
 #!/usr/bin/python
+import sys
 hash = {}
-f = open("/tmp/hosts.txt","rU")
+f = open(sys.argv[1],"rU")
 for i in f:
     SPLIT = i.split('.')
 #    print SPLIT[-3]
