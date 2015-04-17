@@ -5,6 +5,7 @@ def count():
     hash = {}
     lower=words.lower()
     swords =  lower.split()
+    print hash
     for i in swords:
         if i not in hash:
             hash[i] = 1
@@ -14,6 +15,5 @@ def count():
         print key, "==>",hash[key]
 def main():
     count()
-
 if __name__ == '__main__':
     main()

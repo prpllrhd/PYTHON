@@ -5,4 +5,4 @@ b = int(sys.argv[2])
 c = a + b
 print "A:", a
 print "B:", b
-print c
+print "C:", c

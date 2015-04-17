@@ -1,10 +1,11 @@
 #!/usr/bin/python
 
-a=range(5)
+a=range(1,5)
 b=[str(x) for x in a]
+print "B =", b
 c=",".join(b)
 
-print c
+print "C =", c
 
 fruits=['mango','orange','apple','pineapple','sapota']
 
