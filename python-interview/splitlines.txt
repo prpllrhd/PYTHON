@@ -1,0 +1,5 @@
+sameer	25	125000
+rakhee	22	119000
+aai	49	140000
+anjali	49	130000
+rahul	34	32000

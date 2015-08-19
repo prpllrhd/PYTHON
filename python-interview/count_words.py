@@ -18,5 +18,6 @@ def count_words(file):
 def main():
   if args.count:
     count_words(args.file)
+
 if __name__ == "__main__":
   main()

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 def nonrecur(num,pow):
-    a=num
+    a=1
     while pow > 0:
-        num = num * a
+        return a*num
         pow-=1
-print nonrecur(4,5)
+print nonrecur(4,3)
