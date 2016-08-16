@@ -8,7 +8,7 @@ args=parser.parse_args()
 def count_words(file):
   dict={}
   f=open(file,"r")
-  a=f.readline().split()
+  a=f.readline().split()[0]
   for i in a:
     if dict.has_key(i):
       dict[i]+=1

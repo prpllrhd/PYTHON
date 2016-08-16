@@ -6,7 +6,7 @@
 def sortedvalues(a):
   return a[1]
 def dictio(d):
-  dict={}
+#  dict={}
   return sorted(d.items(),key=sortedvalues)
 scores={"sachin":192,"saurav":49,"vinod":193,"viraat":121,"rahul":210}
 print dictio(scores)
