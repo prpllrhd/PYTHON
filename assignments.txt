@@ -1,0 +1,5 @@
+08/16/2016
+Finding duplicate integers from a list 
+Write a function that checks whether any permutation of an input string is a palindrome.
+Make a prime number list from (1,100)
+
